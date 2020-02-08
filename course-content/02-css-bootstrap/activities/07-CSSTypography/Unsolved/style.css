@@ -1,0 +1,13 @@
+/* added fonts for p tag after looking at class solution shared by jerome */
+p{
+    font-family: fantasy;
+}
+.bold{
+    font-weight: bold;
+}
+.enlarge{
+    font-size: 24px;
+}
+.lineHeight{
+    line-height: 50px;
+}

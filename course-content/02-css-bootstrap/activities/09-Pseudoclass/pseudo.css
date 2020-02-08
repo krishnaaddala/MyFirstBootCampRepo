@@ -1,0 +1,9 @@
+a:focus{
+    background-color: aquamarine;
+    color: sienna;
+}
+a:lang{
+    background-color: blue;
+    color: peru;
+
+}

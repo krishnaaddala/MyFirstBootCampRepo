@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Conditional Demo 2</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+// checking for both value 'true' and the data type conditions are met. Result is "hi"
+      if (true === true) {
+        alert("hi");
+      }
+      else {
+        alert("bye");
+      }
+// checking for both value 'false' and the data type conditions are met. Result is "dude"
+
+      if (false === false) {
+        alert("dude");
+      }
+      else {
+        alert("nope");
+      }
+//This would be false as "4" is a string which is not equal to a number the result would be "goats"
+      if ("4" === 4) {
+        alert("puppies");
+      }
+      else {
+        alert("goats");
+      }
+//This would be true as == condition would only check the value and not the type, so the result is "puppies"
+      if ("4" == 4) {
+        alert("puppies");
+      }
+      else {
+        alert("goats");
+      }
+// If the condition "true" is met, the the result will be printed as "goo goo dolls"
+      if (true) {
+        alert("goo goo dolls");
+      }
+      else {
+        alert("vanilla ice");
+      }
+// the value false is flasey, which means the condition is false and prints "one direction"
+      if (false) {
+        alert("the neighborhood");
+      }
+      else {
+        alert("one direction");
+      }
+// the strings would be printed as 55 which is === "55" which mathes both type and the value, so the resuslt will be printed as "Tofu"
+      if (("5" + "5") === "55") {
+        alert("tofu");
+      }
+      else {
+        alert("soybean");
+      }
+// the number 6 is a num and the string value "5" === "65" which matches both the value and the type, so the result would be printed as "richard"
+      if ((6 + "5") === "65") {
+        alert("richard");
+      }
+      else {
+        alert("branson");
+      }
+
+    </script>
+
+  </body>
+</html>

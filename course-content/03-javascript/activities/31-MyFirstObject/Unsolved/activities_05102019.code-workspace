@@ -1,0 +1,106 @@
+{
+	"folders": [
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/01-CodeDissection"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/02-BasicVariablesDemo"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/03-PizzaVariables"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/04-ConsoleLogDemo"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/05-PizzaConsole"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/06-PromptDemo"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/07-PromptSushi"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/08-ConditionalDemo"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/09-ConditionalActivity"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/10-ConditionalActivity2"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/11-ArraysDemo"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/12-ArraysActivity"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/13-Bands"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/14-JSDissect"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/15-CoolPeopleArray"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/16-ArraySetting"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/17-MyFirstLoop"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/18-ZooLoop"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/19-AnotherLoop"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/20-HardLoop"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/21-Events"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/22-PseudoCode"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/23-RPS-Coded"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/24-Recap"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/25-LoopTV"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/26-SuperheroLogging"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/27-MyFirstFunctions"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/28-GoodArray"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/29-JoanOfArcArrays"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/30-GandalfTheGreyObjects"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/31-MyFirstObject"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/32-CarGame"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/33-Scope"
+		},
+		{
+			"path": "/Users/kaddala/Documents/GitHub/my-class-repo/course-content/03-javascript/activities/34-QuestionGame"
+		}
+	]
+}

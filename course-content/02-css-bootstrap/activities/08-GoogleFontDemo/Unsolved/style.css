@@ -1,0 +1,27 @@
+/**
+ * Google Fonts Demo
+ **/
+
+/* Add in the Google Fonts of your choice */
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+}
+.thought1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+
+}
+
+.thought2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+
+}
+.thought3{
+    font-family: 'Monoton', cursive;
+    font-size: 20px;
+
+}

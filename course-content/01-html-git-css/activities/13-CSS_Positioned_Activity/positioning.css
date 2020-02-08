@@ -1,0 +1,19 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background: #eee;
+    border: 2px solid black;
+}
+.box-1{
+    position: fixed;
+    top: 6%;
+    left: 2%;
+}
+
+.box-2{
+    position: relative;
+}
+
+.box-3{
+    position: absolute;
+}

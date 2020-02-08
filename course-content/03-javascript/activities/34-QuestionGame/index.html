@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Question game!</title>
+</head>
+<body>
+    <h1>Question Game!</h1>
+    <p id = "score">Score</p>
+        <script type="text/javascript">
+        var objects_array = [
+            {
+                "question": "Are they 7 days in a week?",
+                "answer": "t"
+            },
+            {
+                "question": "Is 4th of July a national holday?",
+                "answer": "t"
+            },
+            {
+                "question": "do you live in SanFrancisco?",
+                "answer": "f"
+            },
+            {
+                "question" : "do you know how many month in a year?",
+                "answer" : "f"
+            },
+            {
+                "question" : "Are you born in October?",
+                "answer" : "t" 
+            }
+            ]
+            document.onkeyup = function(event){
+                
+            }
+
+        alert("First question: " + daysInAWeek["question"]);
+        if (daysInAWeek.answer === "t"){
+            alert("You are correct!")
+        }
+        else{
+            alert("Come prepared next time!")
+        }
+        </script>
+
+</body>
+</html>

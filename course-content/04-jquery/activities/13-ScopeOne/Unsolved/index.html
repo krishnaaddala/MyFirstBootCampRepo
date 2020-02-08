@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scope Activity #1</title>
+</head>
+<body>
+  <h1>Scope Activity #1</h1>
+  <h2>✨Open the console to see the magic!✨</h2>
+
+  <script>
+    function outside() {
+      // what is the scope of this variable? scope is that var x=1 is defined in the global function of outside() and can be called within the function inside()
+      var x = 1;
+
+      // what is the scope of this function and the scope of y? this var y can only be called within the function inside() and not anywhere else outside of this function
+      function inside(y) {
+
+        console.log(x + y);
+      }
+
+      return inside;
+    }
+
+    // what is happening here? we're defining a var called insideOut and assigning a function outside() 
+    var insideOut = outside();
+
+    // What does this return? this returns console log value of 3
+    insideOut(2);
+
+    // Uncaught ReferenceError: x is not defined.
+    // How does insideOut have access to x?Only if we define the var x=1 outside of the function outside() as a global var
+    console.log("The value of 'x' outside 'outside()' is: " + insideOut);
+
+  </script>
+
+</body>
+</html>

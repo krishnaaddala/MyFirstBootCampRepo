@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calling functions to check car status!</h1>
+    <p id="userInput"></p>
+
+    <script>
+        var UserChoice = document.getElementById("userInput");
+        document.onkeyup = function(event){
+            UserChoice.textContent = event.key;
+            if(UserChoice.textContent == "h"){
+                car.honk();
+                car.reWriteStats();
+            }
+            else if(UserChoice.textContent == "d"){
+                car.driveAroundWorld();
+                car.reWriteStats();
+            }
+            else if(UserChoice.textContent == "w"){
+                car.driveToWork();
+                car.reWriteStats();
+            }
+            else if (UserChoice.textContent == "t"){
+                car.getTuneUp();
+                car.reWriteStats();
+            }
+        }
+        var car = {
+          make: "Honda",
+          model: "Fit",
+          color: "Blue Raspberry",
+          mileage: 3000,
+          isWorking: true,
+  
+          driveToWork: function() {
+  
+            alert("Old Mileage: " + this.mileage);
+  
+            this.mileage = this.mileage + 8;
+  
+            alert("New mileage: " + this.mileage);
+          },
+  
+          driveAroundWorld: function() {
+  
+            alert("Old Mileage: " + this.mileage);
+  
+            this.mileage = this.mileage + 24000;
+  
+            alert("New Mileage: " + this.mileage);
+            alert("Car needs a tuneup!");
+  
+            this.isWorking = false;
+          },
+  
+          getTuneUp: function() {
+            alert("Car is ready to go!");
+            this.isWorking = true;
+          },
+  
+          honk: function() {
+            alert("Honk! Honk!");
+          },
+
+          reWriteStats: function(){
+            console.log(this.make);
+            console.log(this.model);
+            console.log(this.mileage);
+            console.log(this.color);
+            console.log(this.isWorking);
+          }
+        };
+  
+        
+  
+      </script>
+</body>
+</html>

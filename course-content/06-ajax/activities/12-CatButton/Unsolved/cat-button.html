@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Magical Cat Button</title>
+</head>
+
+<body>
+  <button id="cat-button">magical cat button</button>
+  <div id="images">
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    //this is an button onclick action in which we define the action 
+    //that needs to happen when the fuction is called
+    $("#cat-button").on("click", function() {
+
+      //upon the click of the button, we push the different CAT images from this GIPHY API URL
+        var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=wslWpWhssAgYDK6zVXacBDsacT47flr4&tag=cats";
+
+      //this is a AJAX (API jquery library) call with a method of GET from the 
+      //GIPHY URL that we defined within the function
+      $.ajax({
+        url: queryURL,
+        method: "GET"
+      })
+
+      // .then is a promise so after the AJAX call we process this 
+      //function to record a response 
+        .then(function(response) {
+
+        //storing the value we want to store from the response returned 
+        //console log response to get the below response information
+          var imageUrl = response.data.image_original_url;
+
+          //creating an empty image tag and storing it in var catImage
+          var catImage = $("<img>");
+
+          //defining the attribute of catImage variable with a src tag and passing the image URL as the response
+          catImage.attr("src", imageUrl);
+          catImage.attr("alt", "cat image");
+
+          //Upon every click on the HTML ID of #images, we prepend a catImage that we GET from the GIPHY API
+          $("#images").prepend(catImage);
+        });
+    });
+  </script>
+</body>
+
+</html>

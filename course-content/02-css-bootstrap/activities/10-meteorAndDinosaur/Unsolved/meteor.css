@@ -1,0 +1,48 @@
+#sky {
+/* create css properties here */
+width: 100%;
+height: 2000px;
+position: relative;
+background-image: url("../images/background.png");
+}
+
+/* a class that sets the max width of an assigned image to 200px */
+
+#moon {
+/* create css properties here */
+
+}
+.images{
+    max-width: 200px;
+}
+#first-alien {
+/* create css properties here */
+position: absolute;
+bottom: 10px;
+left: 50px;
+}
+
+#second-alien {
+/* create css properties here */
+position: absolute;
+top: 20px;
+left: 800px;
+}
+
+#star {
+/* create css properties here */
+position: absolute;
+top: 5px;
+left: 1300px;
+}
+
+#meteor {
+/* create css properties here */
+position: fixed;
+left: 50%;
+z-index: 2;
+}
+
+#dinosaur {
+/* create css properties here */
+}

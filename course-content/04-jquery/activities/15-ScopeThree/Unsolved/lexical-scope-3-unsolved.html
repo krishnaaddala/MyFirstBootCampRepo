@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lexical Scope</title>
+</head>
+<body>
+
+  <h2>Let's Talk About Scope!</h2>
+
+  <script type="text/javascript">
+
+    // Example One: Global Scope
+    // we define a =1 as a global var
+    var a = 1;
+    function one() {
+      alert("One: " + a);
+    }
+
+    // one: 1
+    one();
+
+    // Example Two: Local Scope
+    // we will alert Two: 1
+    function twotop() {
+
+      function two(a) {
+        alert("Two: " + a);
+      }
+
+      two(a);
+    }
+
+    // What will get alerted?  we'll alert Two: 1
+    twotop();
+
+    // Example Three: Local Scope
+    // -------------------------------------------
+    var a = 5;
+    function three() {
+
+      var a = 3;
+      alert("Three: " + a);
+    }
+
+    // What will get alerted? We'll alert Three: 3
+    three();
+
+    // Example Four: Local Scope
+    // -------------------------------------------
+    function first() {
+      var a = 5;
+
+      function second() {
+        var a = 3;
+//Four: 3
+        function third() {
+          alert("Four: " + a);
+        }
+
+        third();
+      }
+
+      second();
+//Five: 5
+      alert("Five: " + a);
+    }
+
+    // What will get alerted? Four: 3 & Five: 5
+    first();
+
+  </script>
+</body>
+</html>
